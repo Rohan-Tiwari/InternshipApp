@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Guildlines"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:scrollbarDefaultDelayBeforeFade="50"
+        android:scrollbarFadeDuration="100"
+        tools:visibility="visible"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOW TO USE ABOUT HAND SANITIZER"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginBottom="4dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hand sanitizers have become popular over the past several years. In addition to popularity, they are also an important component of a healthy lifestyle. Infections are spread by germs and bacteria, and hand sanitizer can go a long way in preventing the spread of germs. Hand sanitizer is portable and convenient when soap and water are not available.
+The Centers for Disease Control and Prevention recommends using Hand Antiseptic, Hand Scrub and hand sanitizer when soap and water are not available. The most important ingredient in most hand sanitizers is a disinfecting alcohol solution of 60 percent concentration or higher. The alcohol acts quickly and may be combined with other active ingredients, to enhance the germ-fighting ability."
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+STEPS TO USE HAND-SANITIZER"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="2dp"
+                />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                app:cardBackgroundColor="#0F0455"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/step1" />
+
+                    <TextView
+                        android:id="@+id/music_player"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:layout_centerInParent="true"
+                        android:text="Apply the sanitizer on the palms of hands and then rub the palms together.
+"
+                        android:textColor="#FAF4F4"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                app:cardBackgroundColor="#0F0455"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/step2" />
+
+                    <TextView
+                        android:id="@+id/graph"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingTop="20dp"
+                        android:text="Rub right palm over the upper side of left hand with interlaced fingers."
+                        android:textColor="#F8F4F4"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                app:cardBackgroundColor="#0F0455"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/step3" />
+
+                    <TextView
+                        android:id="@+id/search_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:text="Rub left palm over the upper side of right hand with interlaced fingers"
+                        android:textAlignment="center"
+                        android:textColor="#F8F4F4"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                app:cardBackgroundColor="#0F0455"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/step4" />
+
+                    <TextView
+                        android:id="@+id/upload_videos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:layout_centerInParent="true"
+                        android:text="Interlock fingers and rub the back of fingers."
+                        android:textColor="#F8F4F4"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                app:cardBackgroundColor="#0F0455"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/step5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingTop="20dp"
+                        android:text="Rub the right thumb rotationally clasped in left palm and vice versa."
+                        android:textColor="#F8F4F4"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                app:cardBackgroundColor="#0F0455"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/step6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:paddingTop="20dp"
+                        android:text="Rub the finger tips and thumb of right hand in left palm rotationally and vice versa."
+                        android:textColor="#F8F4F4"
+                        android:textSize="20sp" />
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
+

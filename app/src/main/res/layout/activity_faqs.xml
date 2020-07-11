@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Faqs">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="true"
+        android:scrollbarDefaultDelayBeforeFade="50"
+        android:scrollbarFadeDuration="100"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/faqs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginStart="179dp"
+                android:layout_marginLeft="179dp"
+                android:layout_marginEnd="339dp"
+                android:layout_marginRight="339dp"
+                android:gravity="center"
+                android:text="FAQ's"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="What is Amazon.com?"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="13sp"
+                android:text="Amazon.com is a leading online retailer of products that inform, educate, and inspire. The Amazon group also has stores in the Canada, Germany, France, Japan and United Kingdom. Because we exist virtually on the Web, we have unlimited shelf space and can offer a selection of over 17 million titles including over 13 million Book titles and over 1 million music titles. Compare that to a typical physical-world book superstore, which carries around 170,000 books, or a typical physical-world music superstore, which carries around 34,000 CDs." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Why do I encounter various availability listings on your site?"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Titles have different availabilities simply due to their demand, proximity, and availability to Amazon.com. We also source our products from various distributors. The availability on products we obtain from distributors may vary according to whether the distributor has the product in stock. If a title is listed as out of stock or unavailable, it means that it is not currently available to Amazon.com or not in stock through our distribution channels. However, you may still be able to sell out of stock items through our Marketplace feature."
+                android:textSize="13sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="How do I promote my titles at Amazon.com?"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="13sp"
+                android:text="At Amazon.com, it's up to you to make your titles stand out on our virtual shelves. You have the opportunity, using descriptive content and images, to personally hand-sell your titles to customers and persuade them to purchase. Following are the most important pieces of information you can add to your product detail page." />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="How do I find sales information for my title?"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="13sp"
+                android:text="We don't provide sales information to vendors at this time due to the competitive nature of our business. It is recommended that authors/artists/actors contact their publisher/label/studio, or publishers/labels/studios contact their distributors, for more information concerning the sales of their titles." />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Why are some titles discounted while others are not?"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="13sp"
+                android:text="Our decision to discount products is made internally and based on a number of strategic considerations which can vary over time. As it stands now, we offer discounts on hundreds of thousands of selected titles. However we cannot confirm when, if ever, a title will be discounted or how long a title once discounted will remain so." />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="231dp"
+                android:layout_marginRight="231dp"
+                android:fadingEdge="horizontal"
+                android:onClick="prod"
+                android:shadowColor="@color/colorPrimaryDark"
+                android:text="product Description"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
