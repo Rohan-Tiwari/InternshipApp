@@ -18,4 +18,11 @@ public class Faqs extends AppCompatActivity {
         Intent i = new Intent(Faqs.this, Guildlines.class);
         startActivity(i);
     }
+
+    //this is git commit
+    public void demo()
+    {
+        //doing something
+    }
 }
+
