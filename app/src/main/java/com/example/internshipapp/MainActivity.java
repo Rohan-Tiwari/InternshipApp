@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void nextpage(View view)
     {
-        Intent i = new Intent(MainActivity.this, Faqs.class);
+        Intent i = new Intent(MainActivity.this, DashBoard.class);
         startActivity(i);
     }
 }
