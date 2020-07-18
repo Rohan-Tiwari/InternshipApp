@@ -14,8 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void nextpage(View view)
-    {
-        Intent i = new Intent(MainActivity.this, DashBoard.class);
+    {/*
+        Intent i = new Intent(MainActivity.this, DashBoard.class); //Dashboard
+        startActivity(i);*/
+        Intent i = new Intent(MainActivity.this, SaveToExcel.class); //save data to excel
         startActivity(i);
     }
 }

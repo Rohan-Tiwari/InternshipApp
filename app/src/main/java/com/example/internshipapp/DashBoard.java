@@ -20,21 +20,36 @@ public class DashBoard extends AppCompatActivity {
     BarDataSet barDataSet;
     ArrayList barEntries;
 
+    float barWidth;
+    float barSpace;
+    float groupSpace;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dash_board);
         barChart = findViewById(R.id.barChart);
+
+        barWidth = 0.3f;
+        barSpace = 0f;
+        groupSpace = 0.4f;
+
         getEntries();
 
         barDataSet = new BarDataSet(barEntries, "Data Set");
         barData = new BarData(barDataSet);
 
         barChart.setData(barData);
+        barChart.setDescription(null);
+        barChart.getXAxis().setDrawGridLines(false);
+        barChart.getAxisLeft().setDrawGridLines(false);
+        barChart.getAxisRight().setDrawGridLines(false);
+
 
         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         barDataSet.setValueTextColor(Color.BLACK);
         barDataSet.setValueTextSize(16f);
+
     }
 
     private void getEntries(){
